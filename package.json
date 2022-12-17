@@ -1,0 +1,20 @@
+{
+  "name": "http-cats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc -w",
+    "start": "nodemon ./build/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.60.0",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {
+    "@types/node-telegram-bot-api": "^0.57.6"
+  }
+}
