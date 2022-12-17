@@ -4,17 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "tsc": "tsc -w",
-    "start": "nodemon ./build/app.js"
+    "dev": "ts-node-dev --respawn --transpile-only src/app.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "node-telegram-bot-api": "^0.60.0",
-    "nodemon": "^2.0.20"
+    "node-telegram-bot-api": "^0.60.0"
   },
   "devDependencies": {
-    "@types/node-telegram-bot-api": "^0.57.6"
+    "@types/node": "^18.11.17",
+    "@types/node-telegram-bot-api": "^0.57.6",
+    "ts-node-dev": "^2.0.0"
   }
 }
